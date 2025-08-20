@@ -1,0 +1,523 @@
+.font-century {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.leading-5 {
+    line-height: 1.25rem;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.box-border {
+    box-sizing: border-box;
+}
+
+.bg-navbar {
+    background-color: #0397d6;
+}
+
+.py-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.py-8 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.content-between {
+    justify-content: space-between;
+}
+
+.content-center {
+    justify-content: center;
+}
+
+.justify-items-center {
+    align-items: center;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.h-60 {
+    height: 60px;
+}
+
+.h-50 {
+    height: 50px;
+}
+
+.h-100 {
+    height: 100px;
+}
+
+.top-60 {
+    top: 60px;
+}
+
+.w-50 {
+    width: 50px;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.h-40 {
+    height: 40px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.leading-60px {
+    line-height: 60px;
+}
+
+.text-20px {
+    font-size: 20px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.w-35 {
+    width: 35px;
+}
+
+.h-35 {
+    height: 35px;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.nav-links a:hover {
+    background-color: #0079bb;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-auto {
+    height: auto;
+}
+
+.block {
+    display: block;
+}
+
+.p-40 {
+    padding: 40px;
+}
+
+.text-color-h2 {
+    color: #044cc8;
+}
+
+.text-34px {
+    font-size: 34px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-color-a {
+    color: #0388b4;
+}
+
+.subcribelink a:hover {
+    text-decoration: underline;
+}
+
+.py-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.p-8 {
+    padding: 8px;
+}
+
+.border-article {
+    border: 1px solid #dee2e6;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.ml-0 {
+    margin-left: 0px;
+}
+
+.relative {
+    position: relative;
+}
+
+.w-45 {
+    width: 45px;
+}
+
+.mr-8 {
+    margin-right: 8px;
+}
+
+.border-none {
+    border-style: none;
+}
+
+.overflow-clip {
+    overflow: clip;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.under-h3:hover {
+    text-decoration: underline;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.text-span-color {
+    color: #656565;
+}
+
+.text-11-5-pt {
+    font-size: 11.5pt;
+}
+
+.text-height-107 {
+    line-height: 107%;
+}
+
+.text-footer {
+    color: #f8f9fa;
+}
+
+.rounded-8 {
+    border-radius: 8px;
+}
+
+.my-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.my-16 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-footer {
+    background-color: #495057;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pb-54 {
+    padding-bottom: 54px;
+}
+
+.px-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.px-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mx-0 {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.pt-25 {
+    padding-top: 25px;
+}
+
+.text-height-22 {
+    line-height: 22px;
+}
+
+.mx-24 {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.rounded-20 {
+    border-radius: 20px;
+}
+
+.bg-toggle-about {
+    background-color: #005f94;
+}
+
+.h-30 {
+    height: 30px;
+}
+
+.w-150 {
+    width: 150px;
+}
+
+body {
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+body.dark-mode {
+  background-color: #1e1c1c;
+  color: #e0e0e0;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.dark-mode .navbar {
+  background-color: #083f6f;
+}
+
+.dark-mode .nav-links a,
+.dark-mode .icon {
+  color: #e0e0e0;
+}
+
+.dark-mode .site-new-forum h2 {
+  color: #66ccff;
+}
+
+.dark-mode .subcribelink a,
+.dark-mode .under-post-header-h3 a {
+  color: #80d8ff;
+}
+
+.dark-mode .p-2 {
+  border-color: #333;
+}
+
+.dark-mode .post-content-container span {
+  color: #fff;
+}
+
+.dark-mode #notify-span {
+    color: #fff;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.border-content-box {
+    border: 1px solid #ccc;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.text-16px {
+    font-size: 16px;
+}
+
+.min-h-80 {
+    min-height: 80px;
+}
+
+.min-h-200 {
+    min-height: 200px;
+}
+
+.text-gray {
+    color: #999;
+}
+
+.bg-none {
+    background: none;
+}
+
+.border-none {
+    border: none;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.grid {
+    display: grid;
+}
+
+.container {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.bg-toggle-about:hover {
+    background-color: #013e60;
+}
+
+.list-none {
+    list-style: none;
+}
+
+
+#dropout-ul a:hover {
+    color: #000;
+    background-color: transparent;
+}
+
+.text-40px {
+    font-size: 40px;
+}
+
+.dropout-ul {
+    display: none;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.mini-nav {
+    display: none;
+}
+
+.z-10 {
+    z-index: 10;
+}
+
+#h2-btn:hover {
+    background-color: #044cc8;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .mini-nav {
+        display: flex;
+        flex-direction: column;
+        background-color: #0397d6;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        height: auto;
+    }
+
+    .mini-nav a:hover {
+        background-color: #0079bb;
+    }
+
+    #menu-toggle {
+        display: block;
+    }
+
+    #mini-dropout-div {
+        top: 0;
+        left: 100%;
+    }
+}

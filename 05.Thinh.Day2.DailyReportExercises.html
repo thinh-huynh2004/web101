@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Thinh</title>
+        <link rel="stylesheet" href="./05.Thinh.Day2.DailyReportExercises.css">
+        <script src="./05.Thinh.Day5.DailyReportExercises.js" async></script>
+    </head>
+    <body class="font-roboto m-0 p-0 box-border">
+        <header class="bg-navbar py-0 px-20 flex content-between justify-items-center text-white h-60 navbar">
+            <div class="navbar-left flex justify-items-center">
+                <img src="https://lms.hcmut.edu.vn/pluginfile.php/3/theme_academi/logo/1751966759/logoBK.png" alt="Logo BK" 
+                class="logo h-40 mr-20">
+                <button id="menu-toggle" class="menu-btn text-white text-40px bg-none border-none cursor-pointer">
+                    ☰
+                </button>
+                <nav class="mini-nav hidden" id="mini-nav">
+                    <a href="#" 
+                    class="text-white no-underline font-weight-500 px-10 leading-60px">Trang chủ</a>
+                    <div class="dropout flex relative" id="mini-nav-has-dropout">
+                        <a href="#"
+                        class="text-white no-underline font-weight-500 px-10 leading-60px w-full" id="more">Bảng Điều khiển</a>
+                        <div class="dropout w-150 bg-navbar absolute top-60 hidden" id="mini-dropout-div">
+                            <ul class="list-none py-0 px-20 m-0" id="dropout-ul">
+                                <li class="py-8">
+                                    <a href="#" class="no-underline text-white text-14">Sub menu</a></li>
+                                <li class="py-8">
+                                    <a href="#" class="no-underline text-white text-14">Sub menu</a></li>
+                                <li class="py-8">
+                                    <a href="#" class="no-underline text-white text-14">Sub menu</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#" 
+                    class="text-white no-underline font-weight-500 px-10 leading-60px">Các khoá học của tôi</a>
+                    <a href="#" 
+                    class="text-white no-underline font-weight-500 px-10 leading-60px">BKeL Cũ</a>
+                    <a href="#" 
+                    class="text-white no-underline font-weight-500 px-10 leading-60px">Khóa học</a>
+                </nav>
+                <nav class="nav-links flex h-60" id="width-nav">
+                    <a href="#" 
+                    class="text-white no-underline font-weight-500 px-10 leading-60px">Trang chủ</a>
+                    <div class="dropout flex relative" id="nav-has-dropout">
+                        <a href="#"
+                        class="text-white no-underline font-weight-500 px-10 leading-60px w-full" id="more">Bảng Điều khiển</a>
+                        <div class="dropout w-150 bg-navbar absolute top-60 hidden" id="dropout-div">
+                            <ul class="list-none py-0 px-20 m-0" id="dropout-ul">
+                                <li class="py-8">
+                                    <a href="#" class="no-underline text-white text-14">Sub menu</a></li>
+                                <li class="py-8">
+                                    <a href="#" class="no-underline text-white text-14">Sub menu</a></li>
+                                <li class="py-8">
+                                    <a href="#" class="no-underline text-white text-14">Sub menu</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#" 
+                    class="text-white no-underline font-weight-500 px-10 leading-60px">Các khoá học của tôi</a>
+                    <a href="#" 
+                    class="text-white no-underline font-weight-500 px-10 leading-60px">BKeL Cũ</a>
+                    <a href="#" 
+                    class="text-white no-underline font-weight-500 px-10 leading-60px">Khóa học</a>
+                </nav>
+            </div>
+            <div class="navbar-right flex justify-items-center">
+                <button id="theme-toggle-btn" 
+                class="icon text-20px mr-15 cursor-pointer bg-none border-none cursor-pointer" 
+                >☀️</button>
+                <span class="icon text-20px mr-15 cursor-pointer">🔔</span>
+                <span class="icon text-20px mr-15 cursor-pointer">💬</span>
+                <img src="https://www.w3schools.com/howto/img_avatar.png" 
+                class="avatar w-35 h-35 rounded-full" 
+                alt="Avatar">
+            </div>
+        </header>
+
+        <main class="">
+            <div class="h-60"></div>
+            <img src="https://lms.hcmut.edu.vn/pluginfile.php/3/theme_academi/slide1image/1751966759/slbk.jpg" 
+        alt="" class="full-width-img w-full">
+
+            <div class="site-new-forum p-40 block box-border">
+                <h2 id="site-new-forum-h2" class="text-color-h2 text-34px flex">
+                    Thông báo chung / Site announcements
+                    <button class="h-auto mx-24 box-border px-20 border-none rounded-8 bg-navbar text-white
+                    cursor-pointer" id="h2-btn">Nhấn để đổi màu</button>
+                </h2>
+                <div class="subcribelink text-right">
+                    <a href="#" class="no-underline text-color-a">Đăng ký tới diễn đàn này</a>
+                </div>
+                <div id="discussion-list" class="">
+                    <div class="py-16"></div>
+                </div>
+                <div class="mb-2 mb-8">
+                    <div class="mb-2 block mb-8 p-8 border-article">
+                        <div class="contain-info w-full">
+                            <div id="post-header" class="ml-0 w-full mb-8 flex box-border">
+                                <div class="w-45 mr-8">
+                                    <img src="https://lms.hcmut.edu.vn/theme/image.php/academi/core/1751966759/u/f1" 
+                                    alt="" class="rounded-circle w-full rounded-full border-none">
+                                </div>
+                                <div class="">
+                                    <h3 class="font-weight-700 my-0">
+                                        Thông báo về việc cài đặt Moodle Mobile :
+                                    </h3>
+                                    <div class="mb-16">
+                                        Bởi <a href="#" class="text-color-a no-underline under-h3">User Admin</a> - 
+                                        <time>Thứ Sáu, 8 tháng 12 2023, 3:22 PM</time>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="w-45 mr-8"></div>
+                                <div class="">
+                                    <div class="">
+                                        <p class="mt-0 mb-16">
+                                            <span class="font-century text-span-color text-11-5-pt text-height-107"
+                                            id="notify-span">
+                                                Để thuận tiện trong việc 
+                                                <strong>theo dõi thông báo, tin nhắn</strong>
+                                                trên BKeL cán bộ và sinh viên hãy cài đặt ứng dụng Moodle trên điện thoại di động theo hướng dẫn sau:
+                                                <br>
+                                                - Bước 1 : Trên điện thoại mở ứng dụng CH Play (Android) hoặc App Store (Iphone), tìm từ khóa Moodle 
+                                                <br>
+                                                - Bước 2 : Sau khi cài đặt thành công, mở ứng dụng Moodle và nhập https://lms.hcmut.edu.vn vào phần <strong>Địa chỉ trang web</strong> và nhấn kết nối. 
+                                                <br>
+                                                - Bước 3 : Đăng nhập tài khoản trường để kết nối vào hệ thống BKeL trên ứng dụng Moodle của điện thoại.
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container p-40 grid min-h-200">
+                <div class="border-article rounded-8 p-15 flex flex-column justify-items-center">
+                    <button id="toggle-about-btn"
+                    class="p-0 border-none h-30 w-150 rounded-8 bg-toggle-about text-white text-14 cursor-pointer">Hiện giới thiệu</button>
+                    <div class="h-auto w-full my-16 abcd" id="toggle-about-content">
+
+                    </div>
+                </div>
+                <div class="border-article rounded-8 p-15 flex flex-column"
+                id="content-box">
+                    Loading...
+                </div>
+            </div>
+        </main>
+        
+        <footer id="footer" class="text-footer rounded-8 my-0 mx-auto w-full">
+            <div class="bg-footer pt-30 pb-54 px-0">
+                <div class="w-full px-15 mx-0 box-border">
+                    <div class="flex flex-wrap">
+                        <div class="pt-25">
+                            <p class="font-century mb-16 text-height-22"><Strong>Tổ kỹ thuật / Technician</Strong></p>
+                            <p class="font-century mb-16 text-height-22">Email : ddthu@hcmut.edu.vn <br> ĐT (Tel.) : (84-8) 38647256 - 7203</p>
+                            <p class="font-century mb-16 text-height-22"><em>Quý Thầy/Cô chưa có tài khoản (hoặc quên mật khẩu) nhà trường vui lòng liên hệ Trung tâm Dữ liệu & Công nghệ Thông tin, phòng 206 nhà A4 để được hỗ trợ.</em></p>
+                            <p class="font-century mb-16 text-height-22"><em>(For HCMUT account, please contact to : Data and Information Technology Center)</em> <br>
+                            Email : dl-cntt@hcmut.edu.vn <br> ĐT (Tel.) : (84-8) 38647256 - 7200 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+    
+</html>
